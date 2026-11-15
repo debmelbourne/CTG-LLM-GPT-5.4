@@ -1,5 +1,3 @@
-# CTG-LLM-GPT-5.4
-Reproducibility and code package
 # CTG LLM reproducibility resources
 
 We provide public software and method specifications accompanying **GPT classification of cardiotocography across five international guidelines shows second reader potential for fetal asphyxia in two cohorts on different continents**, by Debjyoti Karmakar, Erica Spessot, Enes Makalic and Fiona Brownfoot.
