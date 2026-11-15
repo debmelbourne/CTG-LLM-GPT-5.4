@@ -1,0 +1,15 @@
+INPUT: authorised prepared Australian table; authorised prepared CTU table
+Select the common eligible Australian records and apply the selected cohort rule.
+Create mutually exclusive stratified train, stack, calibration and test partitions.
+FOR EACH strategy (recorded variables alone; recorded variables plus one GPT tier):
+    construct the declared predictor set without management or outcome leakage
+    fit preprocessing and any applicable feature selection using training data
+    fit CatBoost, TabNet and logistic regression using training data
+    generate the three base probabilities for the remaining partitions
+    fit the XGBoost combination in the stacking partition
+    fit positive-slope logistic calibration in the calibration partition
+    evaluate the unchanged pipeline in the held-out test partition
+    lock preprocessing, predictors, base learners, combination and calibration
+    apply the locked pipeline to the prepared CTU records
+    calculate discrimination, calibration and descriptive operating-point summaries
+OUTPUT: evaluation tables and retained model artifacts in the governed implementation

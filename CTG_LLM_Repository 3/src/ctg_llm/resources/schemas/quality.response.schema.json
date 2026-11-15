@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Separate technical quality reference response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "fhr_visible",
+    "uterine_activity_visible",
+    "duration_limitations",
+    "quality_limitations"
+  ],
+  "properties": {
+    "fhr_visible": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "uterine_activity_visible": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "duration_limitations": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "quality_limitations": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

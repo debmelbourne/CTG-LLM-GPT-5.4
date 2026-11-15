@@ -1,0 +1,89 @@
+{
+  "sources": [
+    {
+      "sha256": "84d95137306a99565b393aa5a7668489da2e721cb4dd7fbc815b41a9881d1293",
+      "role": "primary full category analysis",
+      "public_files": [
+        "src/ctg_llm/categories.py",
+        "src/ctg_llm/cohorts.py",
+        "src/ctg_llm/statistics.py",
+        "src/ctg_llm/analysis.py",
+        "src/ctg_llm/plots.py",
+        "src/ctg_llm/cli.py"
+      ],
+      "coverage": "Executable category or sensitivity analysis"
+    },
+    {
+      "sha256": "0f9a9a76badccfc24bd2daf2258a3a06013b308faa4440af2cfe33ce65946dfa",
+      "role": "restricted category analysis",
+      "public_files": [
+        "src/ctg_llm/cohorts.py",
+        "src/ctg_llm/analysis.py",
+        "src/ctg_llm/cli.py"
+      ],
+      "coverage": "Executable category or sensitivity analysis"
+    },
+    {
+      "sha256": "4f1277f968ac4841f7b6bae12a3e7a12674440ecee770d849fac6bfff7fb7d01",
+      "role": "duration sensitivity analyses",
+      "public_files": [
+        "src/ctg_llm/cohorts.py",
+        "src/ctg_llm/analysis.py",
+        "src/ctg_llm/cli.py"
+      ],
+      "coverage": "Executable category or sensitivity analysis"
+    },
+    {
+      "sha256": "ff3aeb030cf8b96ff45fa9aaa339a855b7a8bfe01569f2462069242e530adc43",
+      "role": "outcome-component sensitivity analysis",
+      "public_files": [
+        "src/ctg_llm/cohorts.py",
+        "src/ctg_llm/outcomes.py",
+        "src/ctg_llm/analysis.py",
+        "src/ctg_llm/cli.py"
+      ],
+      "coverage": "Executable category or sensitivity analysis"
+    },
+    {
+      "sha256": "236c0bae27cb6baede1ad731107147fde4d1edd96c780d1d24fb253360e1b877",
+      "role": "full secondary multivariable analysis",
+      "public_files": [
+        "src/ctg_llm/secondary.py",
+        "src/ctg_llm/probability_metrics.py",
+        "src/ctg_llm/cli.py",
+        "docs/secondary_model.md",
+        "docs/secondary_model_pseudocode.txt"
+      ],
+      "coverage": "Executable preparation, partitioning and evaluation; model-combination method specification"
+    },
+    {
+      "sha256": "53e9190a3251dbdbc2869b296f4c5a6f744c10c98d28097bdc6da4a33ed987d9",
+      "role": "restricted secondary multivariable analysis",
+      "public_files": [
+        "src/ctg_llm/cohorts.py",
+        "src/ctg_llm/secondary.py",
+        "src/ctg_llm/probability_metrics.py",
+        "src/ctg_llm/cli.py",
+        "docs/secondary_model.md",
+        "docs/secondary_model_pseudocode.txt"
+      ],
+      "coverage": "Executable preparation, partitioning and evaluation; model-combination method specification"
+    }
+  ],
+  "public_code_status": "Reusable analysis components and reference inference interfaces for the study methods",
+  "evaluated_model": "OpenAI GPT-5.4",
+  "rendering_sources": [
+    {
+      "role": "CTU rendering functions",
+      "source_sha256": "24c6f41a6c56c6c933925770803bcc0cd588e0d1bb199559b65e328354cf411d",
+      "public_file": "src/ctg_llm/rendering.py",
+      "adaptation": "None; source contents retained"
+    },
+    {
+      "role": "CTU rendering command",
+      "source_sha256": "9f52e2fa091ca07f9d17094ad373ada81417eea809437f017289f75ce13e8e94",
+      "public_file": "scripts/render_ctu_signals.py",
+      "adaptation": "Package import path only; operations and defaults retained"
+    }
+  ]
+}

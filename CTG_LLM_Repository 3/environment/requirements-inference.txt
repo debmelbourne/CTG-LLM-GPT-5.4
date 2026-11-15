@@ -1,0 +1,4 @@
+openai==2.54.0
+azure-identity==1.27.0
+azure-storage-blob==12.31.1
+jsonschema==4.26.0

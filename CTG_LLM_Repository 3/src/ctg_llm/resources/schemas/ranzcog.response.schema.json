@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RANZCOG public reference response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "guideline",
+    "raw_category",
+    "baseline",
+    "variability",
+    "accelerations",
+    "decelerations",
+    "contractions",
+    "duration_limitations"
+  ],
+  "properties": {
+    "guideline": {
+      "type": "string",
+      "enum": [
+        "RANZCOG"
+      ]
+    },
+    "raw_category": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        null
+      ]
+    },
+    "baseline": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "variability": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "accelerations": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "decelerations": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "contractions": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "duration_limitations": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
