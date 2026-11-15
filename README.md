@@ -1,29 +1,35 @@
-# CTG LLM reproducibility resources
+# Software environment
 
-We provide public software and method specifications accompanying **GPT classification of cardiotocography across five international guidelines shows second reader potential for fetal asphyxia in two cohorts on different continents**, by Debjyoti Karmakar, Erica Spessot, Enes Makalic and Fiona Brownfoot.
+The public reference environment uses the versions below. All selected package releases were published by 31 October 2026. `software_versions.json` records release dates and official Python/PyPI sources. These versions describe the public software environment; historical study execution records follow the data-access arrangements.
 
-The study evaluated OpenAI GPT-5.4 through Azure OpenAI Service. Repository and package names are model-neutral.
-
-The workflow consists of one technical-quality request and five independent guideline-classification requests for each human-approved CTG image. Structured responses retain each guideline's original category. A separate three-tier mapping follows Supplementary Table S1. Primary discrimination analyses use the original categories directly.
-
-| Component | Public resource |
+| Component | Version |
 | --- | --- |
-| Azure requests, audit logging and parsing | `inference.py`, `parsing.py`, prompt files and JSON schemas |
-| Primary and sensitivity analyses | `analysis.py`, `statistics.py`, `cohorts.py`, `outcomes.py` and `plots.py` |
-| Secondary predictor preparation and partitioning | `secondary.py` |
-| Evaluation of existing probability predictions | `probability_metrics.py` |
-| CTU-UHB signal-to-image rendering | `scripts/render_ctu_signals.py` and `rendering.py` |
-| Complete file descriptions | [Contents](CONTENTS.md) |
-| Relationship to the six source scripts | [Script coverage](docs/script_coverage.md) |
-| Input fields and analysis interfaces | [Analysis](docs/analysis.md) and [Secondary modelling](docs/secondary_model.md) |
-| Guideline editions, inference and rendering methods | [Guidelines](docs/guidelines.md), [Inference](docs/inference.md) and [Rendering](docs/rendering.md) |
-| Software versions and checks | [Environment](environment/README.md) and [Verification](VERIFICATION.md) |
-| Access and implementation scope | [Availability](CODE_AND_DATA_AVAILABILITY.md) and [Reproducibility](docs/reproducibility.md) |
+| Python | 3.12.14 |
+| NumPy | 2.3.5 |
+| pandas | 2.2.3 |
+| SciPy | 1.17.0 |
+| scikit-learn | 1.8.0 |
+| Matplotlib | 3.10.8 |
+| openpyxl | 3.1.5 |
+| OpenAI Python SDK | 2.54.0 |
+| azure-identity | 1.27.0 |
+| azure-storage-blob | 12.31.1 |
+| jsonschema | 4.26.0 |
+| WFDB | 4.3.1 |
+| statsmodels | 0.14.6 |
+| patsy | 1.0.3 |
 
-The package supports Python 3.12.14. `pip install '.[inference,rendering,evaluation]'` installs the public analysis, Azure inference, WFDB rendering and probability-evaluation dependencies. `environment/requirements-verified.txt` records the complete verification environment. The named package releases were available by 31 October 2026; release dates and official sources are recorded in `environment/software_versions.json`.
+`requirements.txt` and `pyproject.toml` pin the direct analysis dependencies. Optional dependency groups are `inference`, `rendering`, `evaluation` and `verification`; their corresponding requirement files record exact versions. `requirements-verified.txt` records the full dependency environment used for the public checks, and `verification_environment.json` provides its machine-readable form.
 
-The `ctg-llm` interface exposes `analyse`, `parse`, `prepare-secondary` and `evaluate-probabilities`. `ctg-llm-infer` provides Azure inference. The executable renderer is `scripts/render_ctu_signals.py`. Their help interfaces describe runtime inputs and options.
+The secondary-model specification references the following library versions. The public preparation and evaluation modules use the dependencies above; model fitting and protected integration follow the implementation-access arrangements.
 
-The public secondary-model functions cover predictor preparation, partitioning and evaluation of existing predictions. The model-combination specification is provided separately; fitted learners and protected integration components follow the access arrangements.
+| Library referenced by the model specification | Version available by the cutoff |
+| --- | --- |
+| catboost | 1.2.10 |
+| torch | 2.15.0 |
+| pytorch-tabnet | 4.1.0 |
+| xgboost | 3.4.1 |
+| shap | 0.54.1 |
+| joblib | 1.5.3 |
 
-No real or simulated datasets, CTG images, study responses, fitted models or results tables are distributed. Study-specific data require a request to the corresponding authors. The article and Supplementary Information report the study results.
+Analysis manifests and inference audits record the packages loaded for each run. Azure inference uses the OpenAI v1 route. The deployment name, returned model identifier, reasoning setting and completion-token limit are explicit runtime fields.

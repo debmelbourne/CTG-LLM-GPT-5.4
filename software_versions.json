@@ -1,0 +1,524 @@
+{
+  "availability_cutoff": "2026-10-31",
+  "description": "Published releases selected for the public reference environment and secondary-model specification.",
+  "packages": [
+    {
+      "package": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "first_upload_utc": "2026-07-01T17:11:54.055058+00:00",
+      "source": "https://pypi.org/project/aiohappyeyeballs/2.7.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.14.4",
+      "first_upload_utc": "2026-10-05T17:37:45.079081+00:00",
+      "source": "https://pypi.org/project/aiohttp/3.14.4/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "aiosignal",
+      "version": "1.4.0",
+      "first_upload_utc": "2025-07-03T22:54:42.156277+00:00",
+      "source": "https://pypi.org/project/aiosignal/1.4.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.8.0",
+      "first_upload_utc": "2026-07-23T20:16:12.938651+00:00",
+      "source": "https://pypi.org/project/annotated-types/0.8.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "anyio",
+      "version": "4.15.1",
+      "first_upload_utc": "2026-09-05T10:42:37.923487+00:00",
+      "source": "https://pypi.org/project/anyio/4.15.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "attrs",
+      "version": "26.1.0",
+      "first_upload_utc": "2026-03-19T14:22:23.645947+00:00",
+      "source": "https://pypi.org/project/attrs/26.1.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "azure-core",
+      "version": "1.41.0",
+      "first_upload_utc": "2026-05-07T23:30:54.302432+00:00",
+      "source": "https://pypi.org/project/azure-core/1.41.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "azure-identity",
+      "version": "1.27.0",
+      "first_upload_utc": "2026-10-26T21:17:39.095516+00:00",
+      "source": "https://pypi.org/project/azure-identity/1.27.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "azure-storage-blob",
+      "version": "12.31.1",
+      "first_upload_utc": "2026-10-29T23:34:05.690183+00:00",
+      "source": "https://pypi.org/project/azure-storage-blob/12.31.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "catboost",
+      "version": "1.2.10",
+      "first_upload_utc": "2026-02-18T16:11:29.502872+00:00",
+      "source": "https://pypi.org/project/catboost/1.2.10/",
+      "scope": "secondary model specification"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.10.23",
+      "first_upload_utc": "2026-10-23T11:36:14.763067+00:00",
+      "source": "https://pypi.org/project/certifi/2026.10.23/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "cffi",
+      "version": "2.1.1",
+      "first_upload_utc": "2026-08-03T21:19:15.602573+00:00",
+      "source": "https://pypi.org/project/cffi/2.1.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.5.2",
+      "first_upload_utc": "2026-09-30T04:34:42.843457+00:00",
+      "source": "https://pypi.org/project/charset-normalizer/3.5.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "contourpy",
+      "version": "1.3.3",
+      "first_upload_utc": "2025-07-26T12:01:02.277321+00:00",
+      "source": "https://pypi.org/project/contourpy/1.3.3/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "cryptography",
+      "version": "50.0.2",
+      "first_upload_utc": "2026-09-30T14:43:44.339921+00:00",
+      "source": "https://pypi.org/project/cryptography/50.0.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "cycler",
+      "version": "0.12.1",
+      "first_upload_utc": "2023-10-07T05:32:16.783035+00:00",
+      "source": "https://pypi.org/project/cycler/0.12.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "distro",
+      "version": "1.9.0",
+      "first_upload_utc": "2023-12-24T09:54:30.421191+00:00",
+      "source": "https://pypi.org/project/distro/1.9.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "et-xmlfile",
+      "version": "2.0.0",
+      "first_upload_utc": "2024-10-25T17:25:39.051783+00:00",
+      "source": "https://pypi.org/project/et-xmlfile/2.0.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "fonttools",
+      "version": "4.61.1",
+      "first_upload_utc": "2025-12-12T17:29:27.500702+00:00",
+      "source": "https://pypi.org/project/fonttools/4.61.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "frozenlist",
+      "version": "1.8.0",
+      "first_upload_utc": "2025-10-06T05:35:23.699793+00:00",
+      "source": "https://pypi.org/project/frozenlist/1.8.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "fsspec",
+      "version": "2026.9.0",
+      "first_upload_utc": "2026-09-18T17:50:41.341146+00:00",
+      "source": "https://pypi.org/project/fsspec/2026.9.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "first_upload_utc": "2025-04-24T03:35:24.344199+00:00",
+      "source": "https://pypi.org/project/h11/0.16.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.9",
+      "first_upload_utc": "2025-04-24T22:06:20.566605+00:00",
+      "source": "https://pypi.org/project/httpcore/1.0.9/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "first_upload_utc": "2024-12-06T15:37:21.509172+00:00",
+      "source": "https://pypi.org/project/httpx/0.28.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "idna",
+      "version": "3.20",
+      "first_upload_utc": "2026-09-17T14:11:03.168153+00:00",
+      "source": "https://pypi.org/project/idna/3.20/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "isodate",
+      "version": "0.7.2",
+      "first_upload_utc": "2024-10-08T23:04:09.501382+00:00",
+      "source": "https://pypi.org/project/isodate/0.7.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "jiter",
+      "version": "0.18.0",
+      "first_upload_utc": "2026-10-23T13:48:38.070514+00:00",
+      "source": "https://pypi.org/project/jiter/0.18.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "joblib",
+      "version": "1.5.3",
+      "first_upload_utc": "2025-12-15T08:41:44.973259+00:00",
+      "source": "https://pypi.org/project/joblib/1.5.3/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "jsonschema",
+      "version": "4.26.0",
+      "first_upload_utc": "2026-01-07T13:41:05.306692+00:00",
+      "source": "https://pypi.org/project/jsonschema/4.26.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "first_upload_utc": "2025-09-08T01:34:57.871954+00:00",
+      "source": "https://pypi.org/project/jsonschema-specifications/2025.9.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "kiwisolver",
+      "version": "1.4.9",
+      "first_upload_utc": "2025-08-10T21:25:35.472486+00:00",
+      "source": "https://pypi.org/project/kiwisolver/1.4.9/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.10.8",
+      "first_upload_utc": "2025-12-10T22:55:02.313544+00:00",
+      "source": "https://pypi.org/project/matplotlib/3.10.8/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "msal",
+      "version": "1.39.0",
+      "first_upload_utc": "2026-09-17T16:07:45.100699+00:00",
+      "source": "https://pypi.org/project/msal/1.39.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "msal-extensions",
+      "version": "1.3.1",
+      "first_upload_utc": "2025-03-14T23:51:03.016939+00:00",
+      "source": "https://pypi.org/project/msal-extensions/1.3.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "multidict",
+      "version": "6.7.1",
+      "first_upload_utc": "2026-01-26T02:42:59.784906+00:00",
+      "source": "https://pypi.org/project/multidict/6.7.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "numpy",
+      "version": "2.3.5",
+      "first_upload_utc": "2025-11-16T22:49:19.336288+00:00",
+      "source": "https://pypi.org/project/numpy/2.3.5/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "openai",
+      "version": "2.54.0",
+      "first_upload_utc": "2026-08-11T18:46:56.684151+00:00",
+      "source": "https://pypi.org/project/openai/2.54.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "openpyxl",
+      "version": "3.1.5",
+      "first_upload_utc": "2024-06-28T14:03:41.161372+00:00",
+      "source": "https://pypi.org/project/openpyxl/3.1.5/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "packaging",
+      "version": "26.3",
+      "first_upload_utc": "2026-08-04T18:15:27.159957+00:00",
+      "source": "https://pypi.org/project/packaging/26.3/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pandas",
+      "version": "2.2.3",
+      "first_upload_utc": "2024-09-20T13:08:42.347501+00:00",
+      "source": "https://pypi.org/project/pandas/2.2.3/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "patsy",
+      "version": "1.0.3",
+      "first_upload_utc": "2026-08-29T21:35:30.913760+00:00",
+      "source": "https://pypi.org/project/patsy/1.0.3/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pillow",
+      "version": "13.0.0",
+      "first_upload_utc": "2026-10-16T22:15:24.672561+00:00",
+      "source": "https://pypi.org/project/pillow/13.0.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.2",
+      "first_upload_utc": "2026-10-20T16:36:27.046054+00:00",
+      "source": "https://pypi.org/project/pip/26.2.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "propcache",
+      "version": "0.5.2",
+      "first_upload_utc": "2026-05-08T20:59:15.597140+00:00",
+      "source": "https://pypi.org/project/propcache/0.5.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pycparser",
+      "version": "3.12",
+      "first_upload_utc": "2026-10-22T13:40:02.021539+00:00",
+      "source": "https://pypi.org/project/pycparser/3.12/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.14.2",
+      "first_upload_utc": "2026-10-29T16:37:10.181777+00:00",
+      "source": "https://pypi.org/project/pydantic/2.14.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pydantic-core",
+      "version": "2.50.2",
+      "first_upload_utc": "2026-10-29T16:31:28.258642+00:00",
+      "source": "https://pypi.org/project/pydantic-core/2.50.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pyjwt",
+      "version": "2.15.1",
+      "first_upload_utc": "2026-09-28T18:40:41.429003+00:00",
+      "source": "https://pypi.org/project/pyjwt/2.15.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pyparsing",
+      "version": "3.3.2",
+      "first_upload_utc": "2026-01-21T03:57:55.912473+00:00",
+      "source": "https://pypi.org/project/pyparsing/3.3.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "3.0.0",
+      "first_upload_utc": "2026-10-21T23:41:43.431814+00:00",
+      "source": "https://pypi.org/project/python-dateutil/3.0.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "pytorch-tabnet",
+      "version": "4.1.0",
+      "first_upload_utc": "2023-07-23T13:26:57.044057+00:00",
+      "source": "https://pypi.org/project/pytorch-tabnet/4.1.0/",
+      "scope": "secondary model specification"
+    },
+    {
+      "package": "pytz",
+      "version": "2026.6",
+      "first_upload_utc": "2026-10-29T09:05:45.140432+00:00",
+      "source": "https://pypi.org/project/pytz/2026.6/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "referencing",
+      "version": "0.37.0",
+      "first_upload_utc": "2025-10-13T15:30:47.625937+00:00",
+      "source": "https://pypi.org/project/referencing/0.37.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "requests",
+      "version": "2.34.2",
+      "first_upload_utc": "2026-05-14T19:25:26.443000+00:00",
+      "source": "https://pypi.org/project/requests/2.34.2/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "rpds-py",
+      "version": "2026.9.1",
+      "first_upload_utc": "2026-10-04T16:28:55.207354+00:00",
+      "source": "https://pypi.org/project/rpds-py/2026.9.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.8.0",
+      "first_upload_utc": "2025-12-10T07:07:39.385321+00:00",
+      "source": "https://pypi.org/project/scikit-learn/1.8.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "scipy",
+      "version": "1.17.0",
+      "first_upload_utc": "2026-01-10T21:24:33.420988+00:00",
+      "source": "https://pypi.org/project/scipy/1.17.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.2.1",
+      "first_upload_utc": "2026-10-20T19:01:35.678013+00:00",
+      "source": "https://pypi.org/project/setuptools/84.2.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "shap",
+      "version": "0.54.1",
+      "first_upload_utc": "2026-10-16T09:27:53.122970+00:00",
+      "source": "https://pypi.org/project/shap/0.54.1/",
+      "scope": "secondary model specification"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "first_upload_utc": "2024-12-04T17:35:26.475808+00:00",
+      "source": "https://pypi.org/project/six/1.17.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "sniffio",
+      "version": "1.3.1",
+      "first_upload_utc": "2024-02-25T23:20:01.196159+00:00",
+      "source": "https://pypi.org/project/sniffio/1.3.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "soundfile",
+      "version": "0.14.0",
+      "first_upload_utc": "2026-06-06T08:58:33.269465+00:00",
+      "source": "https://pypi.org/project/soundfile/0.14.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "statsmodels",
+      "version": "0.14.6",
+      "first_upload_utc": "2025-12-05T19:27:35.625552+00:00",
+      "source": "https://pypi.org/project/statsmodels/0.14.6/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "threadpoolctl",
+      "version": "3.6.0",
+      "first_upload_utc": "2025-03-13T13:49:21.846456+00:00",
+      "source": "https://pypi.org/project/threadpoolctl/3.6.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "torch",
+      "version": "2.15.0",
+      "first_upload_utc": "2026-10-28T15:16:25.498612+00:00",
+      "source": "https://pypi.org/project/torch/2.15.0/",
+      "scope": "secondary model specification"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.70.1",
+      "first_upload_utc": "2026-09-11T07:25:14.599062+00:00",
+      "source": "https://pypi.org/project/tqdm/4.70.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.16.0",
+      "first_upload_utc": "2026-07-02T08:40:04.659120+00:00",
+      "source": "https://pypi.org/project/typing-extensions/4.16.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.4",
+      "first_upload_utc": "2026-08-12T12:37:24.648475+00:00",
+      "source": "https://pypi.org/project/typing-inspection/0.4.4/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "tzdata",
+      "version": "2026.6",
+      "first_upload_utc": "2026-10-28T09:57:07.276552+00:00",
+      "source": "https://pypi.org/project/tzdata/2026.6/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.8.0",
+      "first_upload_utc": "2026-09-15T19:29:34.577402+00:00",
+      "source": "https://pypi.org/project/urllib3/2.8.0/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "wfdb",
+      "version": "4.3.1",
+      "first_upload_utc": "2026-02-03T19:22:26.621944+00:00",
+      "source": "https://pypi.org/project/wfdb/4.3.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "xgboost",
+      "version": "3.4.1",
+      "first_upload_utc": "2026-08-15T08:38:48.484968+00:00",
+      "source": "https://pypi.org/project/xgboost/3.4.1/",
+      "scope": "secondary model specification"
+    },
+    {
+      "package": "yarl",
+      "version": "1.25.1",
+      "first_upload_utc": "2026-09-15T19:29:53.114460+00:00",
+      "source": "https://pypi.org/project/yarl/1.25.1/",
+      "scope": "public reference environment"
+    },
+    {
+      "package": "Python",
+      "version": "3.12.14",
+      "release_date": "2026-08-12",
+      "source": "https://www.python.org/downloads/release/python-31214/",
+      "scope": "public reference environment"
+    }
+  ]
+}
